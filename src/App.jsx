@@ -9,31 +9,126 @@ function App() {
 
   const [data,setData] = useState([
     {
-      num:1,
-      cardData:{
-        name:'Task-1',
-        description:'Description for task-1',
-        cardStatus:'notCompleted',
+      num: 1,
+      cardData: {
+        name: 'Day-1',
+        description: 'Per day 5000',
+        cardStatus: 'notCompleted',
       },
     },
-
     {
-      num:2,
-      cardData:{
-        name:'Task-2',
-        description:'Description for Task-2',
-        cardStatus:'notCompleted',
-      },      
-    },
-
-    {
-      num:3,
-      cardData:{
-        name:'Task-3',
-        description:'Description for Task-3',
-        cardStatus:'notCompleted',
+      num: 2,
+      cardData: {
+        name: 'Day-2',
+        description: 'Per day 5000',
+        cardStatus: 'notCompleted',
       },
     },
+    {
+      num: 3,
+      cardData: {
+        name: 'Day-3',
+        description: 'Per day 5000',
+        cardStatus: 'notCompleted',
+      },
+    },
+    {
+      num: 4,
+      cardData: {
+        name: 'Day-4',
+        description: 'Per day 5000',
+        cardStatus: 'notCompleted',
+      },
+    },
+    {
+      num: 5,
+      cardData: {
+        name: 'Day-5',
+        description: 'Per day 5000',
+        cardStatus: 'notCompleted',
+      },
+    },
+    {
+      num: 6,
+      cardData: {
+        name: 'Day-6',
+        description: 'Per day 5000',
+        cardStatus: 'notCompleted',
+      },
+    },
+    {
+      num: 7,
+      cardData: {
+        name: 'Day-7',
+        description: 'Per day 5000',
+        cardStatus: 'notCompleted',
+      },
+    },
+    {
+      num: 8,
+      cardData: {
+        name: 'Day-8',
+        description: 'Per day 5000',
+        cardStatus: 'notCompleted',
+      },
+    },
+    {
+      num: 9,
+      cardData: {
+        name: 'Day-9',
+        description: 'Per day 5000',
+        cardStatus: 'notCompleted',
+      },
+    },
+    {
+      num: 10,
+      cardData: {
+        name: 'Day-10',
+        description: 'Per day 5000',
+        cardStatus: 'notCompleted',
+      },
+    },
+    {
+      num: 11,
+      cardData: {
+        name: 'Day-11',
+        description: 'Per day 5000',
+        cardStatus: 'notCompleted',
+      },
+    },
+    {
+      num: 12,
+      cardData: {
+        name: 'Day-12',
+        description: 'Per day 5000',
+        cardStatus: 'notCompleted',
+      },
+    },
+    {
+      num: 13,
+      cardData: {
+        name: 'Day-13',
+        description: 'Per day 5000',
+        cardStatus: 'notCompleted',
+      },
+    },
+    {
+      num: 14,
+      cardData: {
+        name: 'Day-14',
+        description: 'Per day 5000',
+        cardStatus: 'notCompleted',
+      },
+    },
+    {
+      num: 15,
+      cardData: {
+        name: 'Day-15',
+        description: 'Total Amount 80,000',
+        cardStatus: 'notCompleted',
+      },
+    },
+    
   ]);
 
   //Adding or Editing Cards from inputs
